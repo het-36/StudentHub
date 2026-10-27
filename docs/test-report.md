@@ -1,8 +1,8 @@
 # StudentHub Integration Test Report
 
-Date: 2026-10-27
+**Date:** 2026-10-27
 
-## Test Results
+## 1. Frontend Test Results
 
 | Test | Status | Evidence |
 |---|---|---|
@@ -13,29 +13,55 @@ Date: 2026-10-27
 | Dashboard page availability | Passed | Opened locally |
 | Events page availability | Passed | Opened locally |
 | Admin page availability | Passed | Opened locally |
-| Responsive desktop/mobile layout | Pending verification | Not fully tested |
-| JavaScript console errors | Pending verification | Not fully tested |
-| Fetch API and JSON data | Pending verification | Not fully tested |
-| Registration and form validation | Pending verification | Not fully tested |
-| Login and logout functionality | Blocked | Integrated PHP backend not present |
-| Student/admin role restrictions | Blocked | Integrated backend access control not present |
-| Database CRUD operations | Blocked | Backend integration not present |
-| Protected routes and security | Blocked | Backend integration not present |
+| Browser console | Passed | Checked; no issues reported |
+| Fetch API / JSON requests | Passed | Checked; no issues reported |
+| Screenshots | Completed | Captured for submission |
 
-## Deployment
+## 2. Backend Tests — Practical 14
 
-The static website is available locally through Apache at `http://studenthub.local/`.
+The separate Practical 14 application was tested locally using PHP and MySQL.
 
-The tested page URLs returned HTTP 200 during the earlier response checks. A successful HTTP response confirms page availability, not complete application functionality.
+| Test | Status | Evidence |
+|---|---|---|
+| Admin login | Passed | Admin Dashboard opened |
+| Student login | Passed | Student Dashboard opened |
+| Role-based access | Passed | Student access to admin page tested |
+| Audit Logs page | Passed | Opened while logged in as admin |
+| Dashboard statistics | Passed | Statistics displayed |
 
-## Summary
+**Backend limitation:** These tests were performed against the separate `wt14_admin` database. They do not establish that the Practical 14 PHP backend is integrated with the StudentHub repository.
 
-The repository contains HTML, CSS, JavaScript, JSON data and documentation. The main pages have been opened locally. Tests that have not been performed remain pending, and backend-dependent features remain blocked until implemented and verified.
+## 3. StudentHub Database
 
-## Remaining Work
+The existing `studenthub_db` database was inspected without modifying its records.
 
-- Verify navigation links and responsive layout.
-- Check browser console errors and Fetch API requests.
-- Test form validation.
-- Implement and test PHP authentication, role-based access control and database CRUD.
-- Capture screenshots as submission evidence.
+| Table | Record count |
+|---|---:|
+| Users | 1 |
+| Students | 5 |
+| Events | 3 |
+| Registrations | 4 |
+
+Record counts confirm that data exists. End-to-end database CRUD through the StudentHub website has not been verified.
+
+## 4. Local Deployment
+
+The StudentHub static website is available locally through Apache:
+
+`http://studenthub.local/`
+
+The tested pages returned HTTP 200 during earlier checks. A successful HTTP response confirms page availability, not complete application functionality.
+
+## 5. Remaining Limitations
+
+- Responsive desktop/mobile layout requires complete verification.
+- Registration and form validation require functional testing.
+- PHP authentication and role-based access are not integrated into the StudentHub repository.
+- StudentHub database CRUD, protected routes, and security checks remain unverified end-to-end.
+
+## 6. Summary
+
+The StudentHub repository contains the frontend, JSON data, and documentation. Main page availability has been checked, and browser console and JSON requests were reported as checked without issues. A separate Practical 14 PHP/MySQL application passed basic login, role-access, audit-page, and dashboard tests.
+
+The two applications use different database schemas. Further integration and end-to-end testing are required before StudentHub can be described as a fully integrated, secure full-stack application.
+ 

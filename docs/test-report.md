@@ -27,9 +27,17 @@ The separate Practical 14 application was tested locally using PHP and MySQL.
 | Student login | Passed | Student Dashboard opened |
 | Role-based access | Passed | Student access to admin page tested |
 | Audit Logs page | Passed | Opened while logged in as admin |
-| Dashboard statistics | Passed | Statistics displayed |
+| Dashboard statistics | Passed | Statistics displayed | 
 
-**Backend limitation:** These tests were performed against the separate `wt14_admin` database. They do not establish that the Practical 14 PHP backend is integrated with the StudentHub repository.
+
+| Test | Status | Evidence |
+|---|---|---|
+| Backend login/logout | Partially Checked | Admin and student login tested in Practical 14 |
+| Student/admin role restrictions | Partially Checked | Student access to admin dashboard tested |
+| Audit logs | Partially Checked | Audit Logs page opened as admin |
+| Dashboard statistics | Partially Checked | Statistics displayed successfully |
+| StudentHub database CRUD | Partially Checked | Database records verified; website CRUD not fully tested |
+| Protected routes and security | Partially Checked | Role-based access tested in Practical 14; StudentHub integration pending |
 
 ## 3. StudentHub Database
 

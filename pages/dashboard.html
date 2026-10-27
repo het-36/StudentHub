@@ -1,72 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - StudentHub</title>
+    <title>Dashboard | StudentHub</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
-        <h1>StudentHub</h1>
-        <p>Student Academic Portal</p>
+        <h1>Student Dashboard</h1>
+        <p>Your Academic Overview</p>
     </header>
 
-    <nav>
-        <a href="../index.html">Home</a> |
-        <a href="login.html">Login</a> |
-        <a href="register.html">Register</a> |
-        <a href="dashboard.html">Dashboard</a> |
-        <a href="courses.html">Courses</a> |
-        <a href="assignments.html">Assignments</a> |
-        <a href="attendance.html">Attendance</a> |
-        <a href="timetable.html">Timetable</a> |
-        <a href="notices.html">Notices</a> |
+    <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html" aria-current="page">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
         <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">Feedback</a>
     </nav>
 
-    <main>
-
-        <h2>Student Dashboard</h2>
+    <main id="main-content">
+        <p class="breadcrumb"><a href="../index.html">Home</a> / Dashboard</p>
 
         <section>
-            <h3>Attendance</h3>
-            <p>85%</p>
+            <h2>Welcome, Student!</h2>
+            <p>Here is a sample overview of your student portal.</p>
+
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Academic Details</h3>
+                    <p>Program: AIML</p>
+                    <p>Semester: 4</p>
+                </article>
+
+                <article class="card">
+                    <h3>Upcoming Events</h3>
+                    <p>Explore workshops, seminars, and campus activities.</p>
+                    <a href="events.html" class="btn">View Events</a>
+                </article>
+
+                <article class="card">
+                    <h3>My Profile</h3>
+                    <p>View your sample student profile information.</p>
+                    <a href="profile.html" class="btn">View Profile</a>
+                </article>
+            </div>
         </section>
 
         <section>
-            <h3>Assignments</h3>
-            <p>4 Pending</p>
+            <h2>Announcements</h2>
+            <article class="card">
+                <h3>Welcome to StudentHub</h3>
+                <p>Explore the portal to find academic information and campus updates.</p>
+            </article>
+            <article class="card">
+                <h3>Explore Campus Events</h3>
+                <p>Visit the events page to see sample activities.</p>
+            </article>
         </section>
-
-        <section>
-            <h3>Courses</h3>
-            <p>6 Enrolled</p>
-        </section>
-
-        <section>
-            <h3>Upcoming Assignments</h3>
-            <ul>
-                <li>Web Technology - Due: 15 Aug</li>
-                <li>Data Structures - Due: 18 Aug</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Recent Notices</h3>
-            <ul>
-                <li>Exam Schedule Released</li>
-                <li>Holiday Notice</li>
-            </ul>
-        </section>
-
     </main>
 
     <footer>
-        <p>StudentHub | Student Academic Portal</p>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
     </footer>
-
 </body>
 </html>

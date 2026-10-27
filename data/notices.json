@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Mid-Semester Examination Schedule",
+    "category": "Examination",
+    "date": "2026-09-25",
+    "description": "The mid-semester examination timetable has been published. Students are requested to check the schedule and prepare accordingly."
+  },
+  {
+    "id": 2,
+    "title": "Assignment Submission Deadline",
+    "category": "Academic",
+    "date": "2026-09-24",
+    "description": "All students must submit their pending assignments through the academic portal before the announced deadline."
+  },
+  {
+    "id": 3,
+    "title": "Technical Workshop Registration",
+    "category": "Event",
+    "date": "2026-09-23",
+    "description": "Registration is open for the upcoming technical workshop. Interested students can register through the StudentHub portal."
+  },
+  {
+    "id": 4,
+    "title": "Library Timing Update",
+    "category": "General",
+    "date": "2026-09-22",
+    "description": "The college library will follow revised working hours during the examination preparation period."
+  },
+  {
+    "id": 5,
+    "title": "Attendance Review",
+    "category": "Academic",
+    "date": "2026-09-21",
+    "description": "Students are advised to review their attendance records and contact their respective faculty members if any correction is required."
+  },
+  {
+    "id": 6,
+    "title": "Coding Competition Announcement",
+    "category": "Event",
+    "date": "2026-09-20",
+    "description": "A coding competition will be organized for students interested in programming and problem-solving."
+  },
+  {
+    "id": 7,
+    "title": "Project Review Guidelines",
+    "category": "Academic",
+    "date": "2026-09-19",
+    "description": "Students must prepare their project demonstrations and documentation according to the guidelines shared by their faculty."
+  },
+  {
+    "id": 8,
+    "title": "Campus Cleanliness Drive",
+    "category": "General",
+    "date": "2026-09-18",
+    "description": "Students are invited to participate in the campus cleanliness drive and contribute to maintaining a clean environment."
+  },
+  {
+    "id": 9,
+    "title": "Sports Day Registration",
+    "category": "Event",
+    "date": "2026-09-17",
+    "description": "Students interested in participating in Sports Day activities can register with the sports committee."
+  },
+  {
+    "id": 10,
+    "title": "Fee Payment Reminder",
+    "category": "Administrative",
+    "date": "2026-09-16",
+    "description": "Students are requested to verify their fee payment status and contact the administration office for assistance if needed."
+  },
+  {
+    "id": 11,
+    "title": "Guest Lecture on Artificial Intelligence",
+    "category": "Event",
+    "date": "2026-09-15",
+    "description": "A guest lecture on recent developments in Artificial Intelligence will be conducted for interested students."
+  },
+  {
+    "id": 12,
+    "title": "Holiday Notice",
+    "category": "General",
+    "date": "2026-09-14",
+    "description": "Students are advised to refer to the official academic calendar for details regarding the upcoming holiday."
+  },
+  {
+    "id": 13,
+    "title": "Practical Examination Instructions",
+    "category": "Examination",
+    "date": "2026-09-13",
+    "description": "Students must bring their college identity cards and required practical materials for the practical examinations."
+  },
+  {
+    "id": 14,
+    "title": "Student Feedback Form",
+    "category": "Administrative",
+    "date": "2026-09-12",
+    "description": "Students are encouraged to complete the feedback form to share their academic experience and suggestions."
+  },
+  {
+    "id": 15,
+    "title": "New Semester Course Registration",
+    "category": "Academic",
+    "date": "2026-09-11",
+    "description": "Students can review the available courses and complete their course registration through the academic portal."
+  }
+]

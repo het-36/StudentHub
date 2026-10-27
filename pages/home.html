@@ -1,58 +1,105 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - StudentHub</title>
+    <title>Feedback | StudentHub</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
-        <h1>StudentHub</h1>
-        <p>Student Academic Portal</p>
+        <h1>Student Feedback</h1>
+        <p>Help Us Improve StudentHub</p>
     </header>
 
-    <nav>
-        <a href="../index.html">Home</a> |
-        <a href="login.html">Login</a> |
-        <a href="register.html">Register</a> |
-        <a href="dashboard.html">Dashboard</a> |
-        <a href="profile.html">Profile</a> |
-        <a href="courses.html">Courses</a> |
-        <a href="assignments.html">Assignments</a> |
-        <a href="attendance.html">Attendance</a> |
-        <a href="timetable.html">Timetable</a> |
-        <a href="notices.html">Notices</a> |
+    <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
         <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html" aria-current="page">Feedback</a>
     </nav>
 
-    <main>
+    <main id="main-content">
+        <p class="breadcrumb"><a href="../index.html">Home</a> / Feedback</p>
 
-        <h2>Welcome to StudentHub</h2>
+        <section>
+            <h2>Share Your Feedback</h2>
+            <p>We welcome your suggestions about the StudentHub portal.</p>
 
-        <p>
-            StudentHub provides students with a centralized platform
-            for accessing academic information and college services.
-        </p>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name"
+                           autocomplete="name" required>
+                </div>
 
-        <h3>StudentHub Features</h3>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                           autocomplete="email" required>
+                </div>
 
-        <ul>
-            <li>Course information</li>
-            <li>Assignment tracking</li>
-            <li>Attendance monitoring</li>
-            <li>Weekly timetable</li>
-            <li>Academic notices</li>
-            <li>Student profile</li>
-        </ul>
+                <div>
+                    <label for="category">Feedback Category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="design">Website Design</option>
+                        <option value="accessibility">Accessibility</option>
+                        <option value="features">Features</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
+                <fieldset>
+                    <legend>How was your experience?</legend>
+
+                    <div>
+                        <input type="radio" id="excellent"
+                               name="experience" value="excellent" required>
+                        <label for="excellent">Excellent</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="good"
+                               name="experience" value="good">
+                        <label for="good">Good</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="average"
+                               name="experience" value="average">
+                        <label for="average">Average</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="needs-improvement"
+                               name="experience" value="needs-improvement">
+                        <label for="needs-improvement">Needs Improvement</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <label for="comments">Your Suggestions</label>
+                    <textarea id="comments" name="comments"
+                              rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
     </main>
 
     <footer>
-        <p>StudentHub | Student Academic Portal</p>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
     </footer>
-
 </body>
 </html>

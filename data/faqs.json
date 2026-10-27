@@ -1,0 +1,93 @@
+
+[
+    {
+        "id": 1,
+        "question": "What is StudentHub?",
+        "answer": "StudentHub is a student portal that provides access to academic information, events, assignments, attendance, and other student services.",
+        "category": "General"
+    },
+    {
+        "id": 2,
+        "question": "How can I register on StudentHub?",
+        "answer": "Visit the Register page, fill in the required details, and submit the registration form.",
+        "category": "Account"
+    },
+    {
+        "id": 3,
+        "question": "How can I log in to StudentHub?",
+        "answer": "Open the Login page, enter your email address and password, and submit the form.",
+        "category": "Account"
+    },
+    {
+        "id": 4,
+        "question": "Where can I find my courses?",
+        "answer": "Open the Courses page from the navigation menu or your student dashboard.",
+        "category": "Academic"
+    },
+    {
+        "id": 5,
+        "question": "How can I check my timetable?",
+        "answer": "Visit the Timetable page to view your weekly class schedule.",
+        "category": "Academic"
+    },
+    {
+        "id": 6,
+        "question": "Where can I check my attendance?",
+        "answer": "Open the Attendance page to view the available subject-wise attendance information.",
+        "category": "Academic"
+    },
+    {
+        "id": 7,
+        "question": "Where can I find my assignments?",
+        "answer": "Visit the Assignments page to view assignment details and due dates.",
+        "category": "Academic"
+    },
+    {
+        "id": 8,
+        "question": "How can I view campus events?",
+        "answer": "Open the Events page to explore campus workshops, seminars, competitions, and other activities.",
+        "category": "Events"
+    },
+    {
+        "id": 9,
+        "question": "Where are important announcements posted?",
+        "answer": "Important announcements and updates are listed on the Notices page.",
+        "category": "Notices"
+    },
+    {
+        "id": 10,
+        "question": "Can I view my student profile?",
+        "answer": "Yes. Select the Profile page to view the student information displayed in the portal.",
+        "category": "Account"
+    },
+    {
+        "id": 11,
+        "question": "How can I submit feedback?",
+        "answer": "Open the Feedback page, enter your comments, and submit the feedback form.",
+        "category": "Support"
+    },
+    {
+        "id": 12,
+        "question": "How can I contact StudentHub?",
+        "answer": "Visit the Contact page to find the contact form and available contact information.",
+        "category": "Support"
+    },
+    {
+        "id": 13,
+        "question": "Does StudentHub work on mobile devices?",
+        "answer": "StudentHub uses a responsive layout designed to adapt to desktops, tablets, and mobile screens.",
+        "category": "General"
+    },
+    {
+        "id": 14,
+        "question": "Can I search for events?",
+        "answer": "Yes. The Events page provides a search field, category filter, sorting options, and pagination.",
+        "category": "Events"
+    },
+    {
+        "id": 15,
+        "question": "Does the portal provide real account authentication?",
+        "answer": "The current StudentHub project is a front-end demonstration. Secure account authentication requires a backend service.",
+        "category": "Account"
+    }
+]

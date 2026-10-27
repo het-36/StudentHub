@@ -1,49 +1,127 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudentHub</title>
-
-    <link rel="stylesheet" href="css/style.css"> 
-</head> 
- 
+    <meta name="description" content="StudentHub - A portal for students to manage academics, events, and campus activities.">
+    <title>StudentHub | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
         <h1>StudentHub</h1>
-        <p>Student Academic Portal</p>
+        <p>Your Campus, Your Community</p>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="pages/login.html">Login</a> |
-        <a href="pages/register.html">Register</a> |
+    <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/register.html">Register</a>
+        <a href="pages/login.html">Login</a>
         <a href="pages/dashboard.html">Dashboard</a>
+        <a href="pages/events.html">Events</a>
+        <a href="pages/profile.html">Profile</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/faq.html">FAQ</a>
+        <a href="pages/feedback.html">Feedback</a>
     </nav>
 
-    <main>
-        <h2>Welcome to StudentHub</h2>
+    <main id="main-content">
 
-        <p>
-            StudentHub is a centralized academic portal that helps
-            students access courses, assignments, attendance,
-            timetable, and important notices.
-        </p>
+        <section class="hero">
+            <div>
+                <h2>Welcome to StudentHub</h2>
+                <p>
+                    StudentHub is a student-focused platform designed
+                    to help you access academic information, explore
+                    campus events, and stay connected with your college
+                    community.
+                </p>
+                <a href="pages/register.html" class="btn">Get Started</a>
+            </div>
+        </section>
 
-        <h3>Quick Access</h3>
+        <section>
+            <h2>Explore StudentHub</h2>
+            <p>Discover the main features available on our student portal.</p>
 
-        <ul>
-            <li><a href="pages/courses.html">Courses</a></li>
-            <li><a href="pages/assignments.html">Assignments</a></li>
-            <li><a href="pages/attendance.html">Attendance</a></li>
-            <li><a href="pages/timetable.html">Timetable</a></li>
-            <li><a href="pages/notices.html">Notices</a></li>
-        </ul>
+            <div class="card-grid">
+
+                <article class="card">
+                    <h3>Student Dashboard</h3>
+                    <p>
+                        View your academic information, announcements,
+                        and important student updates in one place.
+                    </p>
+                    <a href="pages/dashboard.html" class="btn">View Dashboard</a>
+                </article>
+
+                <article class="card">
+                    <h3>Campus Events</h3>
+                    <p>
+                        Explore college activities, workshops,
+                        seminars, and upcoming campus events.
+                    </p>
+                    <a href="pages/events.html" class="btn">Explore Events</a>
+                </article>
+
+                <article class="card">
+                    <h3>Student Profile</h3>
+                    <p>
+                        Access your student profile and view
+                        your personal academic information.
+                    </p>
+                    <a href="pages/profile.html" class="btn">View Profile</a>
+                </article>
+
+                <article class="card">
+                    <h3>About Us</h3>
+                    <p>
+                        Learn about StudentHub, its purpose,
+                        and the services it provides to students.
+                    </p>
+                    <a href="pages/about.html" class="btn">Learn More</a>
+                </article>
+
+                <article class="card">
+                    <h3>Frequently Asked Questions</h3>
+                    <p>
+                        Find answers to common questions about
+                        using the StudentHub portal.
+                    </p>
+                    <a href="pages/faq.html" class="btn">Read FAQs</a>
+                </article>
+
+                <article class="card">
+                    <h3>Share Feedback</h3>
+                    <p>
+                        Share your suggestions and feedback
+                        to help improve the student experience.
+                    </p>
+                    <a href="pages/feedback.html" class="btn">Give Feedback</a>
+                </article>
+
+            </div>
+        </section>
+
+        <aside>
+            <h2>Stay Connected</h2>
+            <p>
+                Keep up with campus information and student activities.
+                Visit our contact page if you need assistance.
+            </p>
+            <a href="pages/contact.html" class="btn">Contact Us</a>
+        </aside>
+
     </main>
 
     <footer>
-        <p>StudentHub | Student Academic Portal</p>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+        <p>Designed for students, by students.</p>
     </footer>
 
 </body>

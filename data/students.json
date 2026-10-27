@@ -1,0 +1,138 @@
+
+[
+    {
+        "id": 1,
+        "name": "Aarav Patel",
+        "studentId": "AIML001",
+        "department": "AIML",
+        "semester": 4,
+        "email": "aarav.patel@example.com",
+        "city": "Ahmedabad"
+    },
+    {
+        "id": 2,
+        "name": "Diya Shah",
+        "studentId": "AIML002",
+        "department": "AIML",
+        "semester": 4,
+        "email": "diya.shah@example.com",
+        "city": "Surat"
+    },
+    {
+        "id": 3,
+        "name": "Rohan Mehta",
+        "studentId": "CSE001",
+        "department": "CSE",
+        "semester": 3,
+        "email": "rohan.mehta@example.com",
+        "city": "Vadodara"
+    },
+    {
+        "id": 4,
+        "name": "Anaya Desai",
+        "studentId": "IT001",
+        "department": "IT",
+        "semester": 5,
+        "email": "anaya.desai@example.com",
+        "city": "Rajkot"
+    },
+    {
+        "id": 5,
+        "name": "Vivaan Joshi",
+        "studentId": "AIML003",
+        "department": "AIML",
+        "semester": 4,
+        "email": "vivaan.joshi@example.com",
+        "city": "Anand"
+    },
+    {
+        "id": 6,
+        "name": "Myra Trivedi",
+        "studentId": "CE001",
+        "department": "CE",
+        "semester": 2,
+        "email": "myra.trivedi@example.com",
+        "city": "Nadiad"
+    },
+    {
+        "id": 7,
+        "name": "Arjun Parmar",
+        "studentId": "CSE002",
+        "department": "CSE",
+        "semester": 6,
+        "email": "arjun.parmar@example.com",
+        "city": "Ahmedabad"
+    },
+    {
+        "id": 8,
+        "name": "Sara Gandhi",
+        "studentId": "AIML004",
+        "department": "AIML",
+        "semester": 4,
+        "email": "sara.gandhi@example.com",
+        "city": "Bhavnagar"
+    },
+    {
+        "id": 9,
+        "name": "Reyansh Patel",
+        "studentId": "IT002",
+        "department": "IT",
+        "semester": 3,
+        "email": "reyansh.patel@example.com",
+        "city": "Jamnagar"
+    },
+    {
+        "id": 10,
+        "name": "Aadhya Shah",
+        "studentId": "CE002",
+        "department": "CE",
+        "semester": 5,
+        "email": "aadhya.shah@example.com",
+        "city": "Surat"
+    },
+    {
+        "id": 11,
+        "name": "Krish Bhatt",
+        "studentId": "AIML005",
+        "department": "AIML",
+        "semester": 4,
+        "email": "krish.bhatt@example.com",
+        "city": "Vadodara"
+    },
+    {
+        "id": 12,
+        "name": "Ira Vyas",
+        "studentId": "CSE003",
+        "department": "CSE",
+        "semester": 2,
+        "email": "ira.vyas@example.com",
+        "city": "Anand"
+    },
+    {
+        "id": 13,
+        "name": "Advik Shah",
+        "studentId": "IT003",
+        "department": "IT",
+        "semester": 6,
+        "email": "advik.shah@example.com",
+        "city": "Rajkot"
+    },
+    {
+        "id": 14,
+        "name": "Kiara Modi",
+        "studentId": "AIML006",
+        "department": "AIML",
+        "semester": 3,
+        "email": "kiara.modi@example.com",
+        "city": "Nadiad"
+    },
+    {
+        "id": 15,
+        "name": "Dhruv Thakkar",
+        "studentId": "CE003",
+        "department": "CE",
+        "semester": 4,
+        "email": "dhruv.thakkar@example.com",
+        "city": "Ahmedabad"
+    }
+]

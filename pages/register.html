@@ -1,66 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - StudentHub</title> 
+    <title>Register | StudentHub</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
-        <h1>StudentHub</h1>
-        <p>Student Academic Portal</p>
+        <h1>Student Registration</h1>
+        <p>Create Your StudentHub Account</p>
     </header>
 
-    <nav>
-        <a href="../index.html">Home</a> |
-        <a href="login.html">Login</a> |
-        <a href="register.html">Register</a> |
-        <a href="dashboard.html">Dashboard</a> |
-        <a href="courses.html">Courses</a> |
-        <a href="assignments.html">Assignments</a> |
-        <a href="attendance.html">Attendance</a> |
-        <a href="timetable.html">Timetable</a> |
-        <a href="notices.html">Notices</a> |
+    <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html" aria-current="page">Register</a>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
         <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">Feedback</a>
     </nav>
 
-    <main>
-        <h2>Create Account</h2>
+    <main id="main-content">
+        <p class="breadcrumb"><a href="../index.html">Home</a> / Register</p>
 
-        <form>
-            <label for="name">Full Name:</label>
-            <br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
+        <section>
+            <h2>Register Your Account</h2>
+            <p>Fill in the details below to create an account.</p>
 
-            <label for="email">Email:</label>
-            <br>
-            <input type="email" id="email" name="email" required>
-            <br><br>
+            <form action="#" method="post">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"
+                           autocomplete="name" required>
+                </div>
 
-            <label for="password">Password:</label>
-            <br>
-            <input type="password" id="password" name="password" required>
-            <br><br>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                           autocomplete="email" required>
+                </div>
 
-            <label for="role">Role:</label>
-            <br>
-            <select id="role" name="role">
-                <option value="student">Student</option>
-                <option value="faculty">Faculty</option>
-            </select>
-            <br><br>
+                <div>
+                    <label for="rollno">Roll Number</label>
+                    <input type="text" id="rollno" name="rollno" required>
+                </div>
 
-            <button type="submit">Register</button>
-        </form>
+                <div>
+                    <label for="course">Course</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select your course</option>
+                        <option value="aiml">Artificial Intelligence and Machine Learning</option>
+                        <option value="cse">Computer Science</option>
+                        <option value="it">Information Technology</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="semester">Semester</label>
+                    <select id="semester" name="semester" required>
+                        <option value="">Select semester</option>
+                        <option value="1">Semester 1</option>
+                        <option value="2">Semester 2</option>
+                        <option value="3">Semester 3</option>
+                        <option value="4">Semester 4</option>
+                        <option value="5">Semester 5</option>
+                        <option value="6">Semester 6</option>
+                        <option value="7">Semester 7</option>
+                        <option value="8">Semester 8</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                           autocomplete="new-password" minlength="8" required>
+                </div>
+
+                <div>
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password"
+                           name="confirm-password"
+                           autocomplete="new-password" minlength="8" required>
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+
+            <p>Already registered? <a href="login.html">Login here</a>.</p>
+        </section>
     </main>
 
     <footer>
-        <p>StudentHub | Student Academic Portal</p>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
     </footer>
-
 </body>
 </html>

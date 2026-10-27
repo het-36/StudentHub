@@ -1,0 +1,123 @@
+
+[
+    {
+        "id": 1,
+        "title": "AI and Machine Learning Workshop",
+        "category": "Workshop",
+        "date": "2026-10-05",
+        "venue": "Seminar Hall A",
+        "description": "A practical workshop introducing artificial intelligence and machine learning concepts."
+    },
+    {
+        "id": 2,
+        "title": "Web Development Bootcamp",
+        "category": "Bootcamp",
+        "date": "2026-10-08",
+        "venue": "Computer Lab 1",
+        "description": "Learn HTML, CSS, JavaScript, and responsive website development."
+    },
+    {
+        "id": 3,
+        "title": "Coding Competition",
+        "category": "Competition",
+        "date": "2026-10-12",
+        "venue": "Computer Lab 2",
+        "description": "Participate in a programming competition featuring algorithmic challenges."
+    },
+    {
+        "id": 4,
+        "title": "Cybersecurity Awareness Seminar",
+        "category": "Seminar",
+        "date": "2026-10-15",
+        "venue": "Auditorium",
+        "description": "Understand cybersecurity, online privacy, and safe digital practices."
+    },
+    {
+        "id": 5,
+        "title": "Python Programming Workshop",
+        "category": "Workshop",
+        "date": "2026-10-19",
+        "venue": "Computer Lab 3",
+        "description": "Practice Python programming through beginner-friendly coding activities."
+    },
+    {
+        "id": 6,
+        "title": "Project Presentation Day",
+        "category": "Academic",
+        "date": "2026-10-22",
+        "venue": "Project Hall",
+        "description": "Students present their academic projects and demonstrate their solutions."
+    },
+    {
+        "id": 7,
+        "title": "Robotics Exhibition",
+        "category": "Exhibition",
+        "date": "2026-10-26",
+        "venue": "Main Auditorium",
+        "description": "Explore student-built robots, automation projects, and robotics demonstrations."
+    },
+    {
+        "id": 8,
+        "title": "Data Science Seminar",
+        "category": "Seminar",
+        "date": "2026-11-02",
+        "venue": "Seminar Hall B",
+        "description": "Discover data analysis, visualization, and applications of data science."
+    },
+    {
+        "id": 9,
+        "title": "Hackathon 2026",
+        "category": "Competition",
+        "date": "2026-11-06",
+        "venue": "Innovation Centre",
+        "description": "Collaborate in teams to develop creative solutions to real-world problems."
+    },
+    {
+        "id": 10,
+        "title": "Communication Skills Workshop",
+        "category": "Workshop",
+        "date": "2026-11-10",
+        "venue": "Seminar Hall A",
+        "description": "Improve presentation, teamwork, and professional communication skills."
+    },
+    {
+        "id": 11,
+        "title": "Cloud Computing Seminar",
+        "category": "Seminar",
+        "date": "2026-11-14",
+        "venue": "Auditorium",
+        "description": "Learn about cloud platforms, distributed systems, and cloud applications."
+    },
+    {
+        "id": 12,
+        "title": "Annual Sports Day",
+        "category": "Sports",
+        "date": "2026-11-20",
+        "venue": "College Sports Ground",
+        "description": "Participate in sports competitions and student athletic activities."
+    },
+    {
+        "id": 13,
+        "title": "Open Source Contribution Drive",
+        "category": "Technical",
+        "date": "2026-11-25",
+        "venue": "Computer Lab 1",
+        "description": "Explore GitHub and learn the basics of contributing to open-source projects."
+    },
+    {
+        "id": 14,
+        "title": "Innovation and Startup Talk",
+        "category": "Talk",
+        "date": "2026-12-02",
+        "venue": "Seminar Hall B",
+        "description": "Explore entrepreneurship, innovation, and the startup ecosystem."
+    },
+    {
+        "id": 15,
+        "title": "Annual Cultural Festival",
+        "category": "Cultural",
+        "date": "2026-12-10",
+        "venue": "College Campus",
+        "description": "Celebrate student creativity through music, dance, art, and performances."
+    }
+]

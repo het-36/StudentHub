@@ -56,4 +56,8 @@ The main static pages have been checked for successful HTTP responses. Refer to 
 
 ## Known Limitations
 
-The repository does not currently contain an integrated PHP backend. Authentication, role-based access control and database CRUD operations are not yet verified as functional. These features must be implemented and tested before they can be considered complete.
+## Known Limitations
+
+The StudentHub repository does not yet contain an integrated PHP backend. The separate Practical 14 PHP application has been partially tested, including admin and student login, role-based access restrictions, audit logs, and dashboard statistics.
+ 
+However, these backend features have not yet been integrated with the StudentHub frontend. End-to-end authentication, database CRUD operations through the website, and protected-route security remain partially checked or pending verification. Further integration and testing are required before the application can be considered a complete full-stack system.  
